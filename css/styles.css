@@ -133,6 +133,10 @@ header a:hover {
   background-position: center center;
 }
 
+#hero h1{
+  font-size: 4em;
+}
+
 #hero button{
     font-size: 1.75em;
 }
@@ -158,6 +162,16 @@ header a:hover {
 
 #nuestros-productos p {
   display: none;
+}
+
+#nuestros-productos button a{
+  text-decoration: none;
+  color: white;
+}
+
+#nuestros-productos button a:hover{
+  background-color: white;
+  color: var(--primary-color);
 }
 
 #nuestros-productos .carta {
